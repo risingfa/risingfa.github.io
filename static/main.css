@@ -1,7 +1,9 @@
 :root {
-  --main-color: #497077;
-  --vice-color: #567e85;
+  --main-color: #f47c13;
+  --vice-color: #000000;
   --service-color: #2d565d;
+  --bg-vice1-color: #eceae9;
+  --bg-vice2-color: #ed8023;
 }
 
 @font-face {
@@ -118,7 +120,7 @@ footer .copy-right {
 
 .navbar-main {
     height: 70px;
-    background-color: #fff !important;
+    background-color: #fef2ed !important;
     border-bottom: solid 1px var(--main-color);
 }
 
@@ -575,6 +577,10 @@ hr.section-vice-hr {
     background-color: var(--service-color);
 }
 
+.bg-vice1 {
+    background-color: var(--bg-vice1-color);
+}
+
 .card-plan {
     background: #fff;
     padding: 30px !important;
@@ -626,6 +632,10 @@ hr.section-vice-hr {
 .outline li {
     padding-top: 10px;
     font-size: 20px;
+}
+
+.outline.outline-lg li {
+    font-size: 24px;
 }
 
 .qrcode img {
