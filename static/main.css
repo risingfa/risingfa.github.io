@@ -1,9 +1,10 @@
 :root {
   --main-color: #f47c13;
-  --vice-color: #000000;
-  --service-color: #2d565d;
+  --vice-color: #000;
+  --service-color: #333;
+  --bg-main-color: #f47c13;
   --bg-vice1-color: #eceae9;
-  --bg-vice2-color: #ed8023;
+  --bg-vice2-color: #333;
 }
 
 @font-face {
@@ -25,7 +26,7 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--bg-vice1-color);
     margin-bottom: 40px;
 }
 
@@ -453,9 +454,13 @@ p.texti-plan0 span {
 .jumbotron-section h2 span {
     color: #fff;
     font-size: 28px;
-    padding: 20px 100px;
+    padding: 20px 50px;
     border-radius: 3px;
     background: var(--main-color);
+}
+
+.jumbotron-section h2.general span {
+    background: transparent;
 }
 
 .jumbotron-section h3 {
@@ -476,11 +481,11 @@ p.texti-plan0 span {
 }
 
 hr.section-main-hr {
-    border-top: 5px solid var(--main-color);
+    border-top: 5px solid #333;
 }
 
 hr.section-vice-hr {
-    border-top: 5px solid var(--vice-color);
+    border-top: 5px solid #fff;
 }
 
 .jumbotron-section h2.contact span {
@@ -577,12 +582,21 @@ hr.section-vice-hr {
     background-color: var(--service-color);
 }
 
+.bg-core-value {
+    background-color: var(--bg-main-color);
+}
+
 .bg-vice1 {
     background-color: var(--bg-vice1-color);
 }
 
+.bg-vice2 {
+    background-color: var(--bg-vice2-color);
+}
+
 .card-plan {
-    background: #fff;
+    text-align: center;
+    background: transparent;
     padding: 30px !important;
 }
 
