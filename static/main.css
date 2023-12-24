@@ -612,6 +612,15 @@ hr.section-vice-hr {
     border-width: 5px;
 }
 
+div .core-service-item {
+    font-size: 24px;
+    color: #fff;
+    margin: 16px 6px;
+    padding: 10px 6px;
+    background-color: var(--bg-main-color);
+    border-left: solid 10px #b05608;
+}
+
 .achievements-items .item {
     padding: 10px;
     text-align: center;
