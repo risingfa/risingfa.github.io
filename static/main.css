@@ -457,10 +457,11 @@ p.texti-plan0 span {
     padding: 20px 50px;
     border-radius: 3px;
     background: var(--main-color);
+    display: inline-block;
 }
 
-.jumbotron-section h2.general span {
-    background: transparent;
+.jumbotron-section h2 span small {
+    font-size: 0.7em;
 }
 
 .jumbotron-section h3 {
