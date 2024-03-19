@@ -613,6 +613,28 @@ hr.section-vice-hr {
     border-width: 5px;
 }
 
+.mission {
+    padding: 20px 40px 4px;
+    background-color: #2d607c;
+    border-left: 20px solid #abc4d2;
+    border-right: 20px solid #abc4d2;
+}
+
+.mission p {
+    font-size: 1.6em !important;
+}
+
+.vision {
+    padding: 20px 40px 4px;
+    background-color: var(--service-color);
+    border-left: 20px solid #717171;
+    border-right: 20px solid #717171;
+}
+
+.vision p {
+    font-size: 1.6em !important;
+}
+
 div .core-service-item {
     font-size: 24px;
     color: #fff;
@@ -620,29 +642,7 @@ div .core-service-item {
     padding: 10px 6px;
     background-color: var(--bg-main-color);
     border-left: solid 10px #b05608;
-}
-
-.achievements-items .item {
-    padding: 10px;
-    text-align: center;
-    color: #fff;
-}
-
-.achievements-items .item .item-desc {
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.achievements-items .item:nth-child(odd) .item-desc {
-    background-color: #4682b4;
-}
-
-.achievements-items .item:nth-child(even) .item-desc {
-    background-color: #2e8b57;
-}
-
-.achievements-items .item h4 {
-    color: #eee;
+    border-right: solid 10px #b05608;
 }
 
 .badge-main {
